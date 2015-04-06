@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Compiling the overlay from .dts to .dtbo"
+
+dtc -O dtb -o PP-DIPLOMA-00A0.dtbo -b 0 -@ PP-DIPLOMA.dts
+
